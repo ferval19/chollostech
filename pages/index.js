@@ -12,10 +12,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Chollos.tech</h1>
+        <h1 className={styles.title}>Bienvenido a Chollos.tech</h1>
 
         <p className={styles.description}>
-          Tu web para estar al día de los chollos en tecnología y más.
+          Tu web para estar al día de los chollos en tecnología y estilo de vida
+          tecnológico.
         </p>
 
         <div className={styles.grid}>
