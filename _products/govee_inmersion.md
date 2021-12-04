@@ -1,6 +1,6 @@
 ---
 title: "Govee Immersion Tira LED TV"
-category: domótica
+category: domotica
 excerpt: "Govee Immersion Tira LED TV con Cámara 3,8m, Alexa Luces LED RGBIC WiFi Funciona con Alexa y Google Assistant USB, Luz Ambilight Soporta 55-65 Pulgada TV para Película, Navidad y LED Gaming [Clase de eficiencia energética A]"
 coverImage: "https://m.media-amazon.com/images/I/716qp+0GtmL._AC_SL1500_.jpg"
 date: "2020-03-16T05:35:07.322Z"

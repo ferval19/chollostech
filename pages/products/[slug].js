@@ -2,6 +2,9 @@ import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import { getPostBySlug, getAllPosts } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtmls";
+import ProductTitle from "../../components/product-title";
+import ProductBody from "../../components/product-body";
+import Nav from "../../components/nav";
 
 export default function Post({ producto, morePosts, preview }) {
   const router = useRouter();
@@ -11,7 +14,16 @@ export default function Post({ producto, morePosts, preview }) {
   }
   return (
     <>
-      <h2>{producto.title}</h2>
+      <Nav />
+      <article className="mb-32 p-4">
+        <ProductTitle children={producto.title} />
+        <ProductBody
+          content={producto.content}
+          imagen={producto.coverImage}
+          title={producto.title}
+          amazon={producto.enlace}
+        />
+      </article>
     </>
   );
 }

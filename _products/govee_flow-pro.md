@@ -1,6 +1,6 @@
 ---
 title: "Govee Flow Pro"
-category: domótica
+category: domotica
 excerpt: "Govee Flow Pro Alexa Barras de Luz con Cámara, Luces LED RGBIC Inteligente Funciona con Alexa Google Assistant y App, Modo Música para Habitación Gaming, TV/PC y Navidad [Clase de eficiencia energética A]"
 coverImage: "https://m.media-amazon.com/images/I/716qp+0GtmL._AC_SL1500_.jpg"
 date: "2020-12-04T05:35:07.322Z"

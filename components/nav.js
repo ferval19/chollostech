@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import "tailwindcss/tailwind.css";
 export default function Nav() {
@@ -11,16 +12,18 @@ export default function Nav() {
         >
           <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="#">
-                <span className="sr-only">ChollosTech</span>
-                <Image
-                  className="h-8 w-auto sm:h-10"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                  alt="ChollosTech logo"
-                  width="50"
-                  height="50"
-                />
-              </a>
+              <Link href="/">
+                <a>
+                  <span className="sr-only">ChollosTech</span>
+                  <Image
+                    className="h-8 w-auto sm:h-10"
+                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                    alt="ChollosTech logo"
+                    width="50"
+                    height="50"
+                  />
+                </a>
+              </Link>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
                   type="button"
@@ -89,15 +92,17 @@ export default function Nav() {
       <div className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden hidden">
         <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
           <div className="px-5 pt-4 flex items-center justify-between">
-            <div>
-              <Image
-                className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                alt="ChollosTech logo"
-                width="50"
-                height="50"
-              />
-            </div>
+            <Link href="/">
+              <a>
+                <Image
+                  className="h-8 w-auto sm:h-10"
+                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                  alt="ChollosTech logo"
+                  width="50"
+                  height="50"
+                />
+              </a>
+            </Link>
             <div className="-mr-2">
               <button
                 type="button"
