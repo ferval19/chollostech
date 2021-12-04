@@ -16,7 +16,7 @@ export default function Post({ producto, morePosts, preview }) {
     <>
       <Nav />
       <article className="mb-32 p-4">
-        <ProductTitle children={producto.title} />
+        <ProductTitle title={producto.title} />
         <ProductBody
           content={producto.content}
           imagen={producto.coverImage}

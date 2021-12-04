@@ -17,14 +17,10 @@ export default function Destacado({ destacado }) {
 
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{destacado.title}</div>
-          <Link
-            as={`/category/${destacado.category}`}
-            href={`/category/${destacado.category}`}
-          >
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              {destacado.category}
-            </span>
-          </Link>
+
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            {destacado.category}
+          </span>
 
           <p className="text-gray-700 text-base">{destacado.excerpt}</p>
         </div>
