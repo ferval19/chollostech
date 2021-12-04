@@ -3,7 +3,7 @@ title: "Wifi Interruptor Alexa"
 category: domótica
 excerpt: "Wifi Interruptor Alexa 1 Gang, Etersky Interruptor Inteligente Compatible con Alexa y Google Home, Interruptor Pared Luz Control APP, Smart Life Interruptor Tactil con Temporizador NEUTRO REQUERIDO"
 coverImage: "https://m.media-amazon.com/images/I/71-8YOtQPpL._SL1500_.jpg"
-date: "2020-03-16T05:35:07.322Z"
+date: "2020-11-16T05:35:07.322Z"
 enlace: https://amzn.to/3ooPy7P
 author:
   name: Joe Haddad
