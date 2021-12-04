@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,10 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/products/[slug]": [
+    "/domotica": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/products/[slug].js"
+      "static/chunks/pages/domotica.js"
+    ],
+    "/videojuegos": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/videojuegos.js"
     ]
   },
   "ampFirstPages": []

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import "tailwindcss/tailwind.css";
+
 export default function Nav() {
   return (
     <div>
@@ -58,33 +58,31 @@ export default function Nav() {
               Destacados
             </a>
 
-            <a
-              href="#"
-              className="font-medium text-gray-500 hover:text-gray-900"
-            >
-              LifeStyle
-            </a>
+            <Link href="/lifestyle">
+              <a
+                href="#"
+                className="font-medium text-gray-500 hover:text-gray-900"
+              >
+                LifeStyle
+              </a>
+            </Link>
 
-            <a
-              href="#"
-              className="font-medium text-gray-500 hover:text-gray-900"
-            >
-              Videojuegos
-            </a>
-
-            <a
-              href="#"
-              className="font-medium text-gray-500 hover:text-gray-900"
-            >
-              Perifericos
-            </a>
-
-            <a
-              href="#"
-              className="font-medium text-indigo-600 hover:text-indigo-500"
-            >
-              Mac
-            </a>
+            <Link href="/videojuegos">
+              <a
+                href="#"
+                className="font-medium text-gray-500 hover:text-gray-900"
+              >
+                Videojuegos
+              </a>
+            </Link>
+            <Link href="/domotica">
+              <a
+                href="#"
+                className="font-medium text-gray-500 hover:text-gray-900"
+              >
+                Domótica
+              </a>
+            </Link>
           </div>
         </nav>
       </div>
