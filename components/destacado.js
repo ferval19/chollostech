@@ -31,7 +31,7 @@ export default function Destacado({ destacado }) {
             </a>
           </div>
           <Link as={`/products/${destacado.slug}`} href="/products/[slug]">
-            <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-purple-400 hover:bg-purple-300 md:py-4 md:text-lg md:px-10">
+            <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-400 hover:bg-purple-300 md:py-4 md:text-lg md:px-10">
               Ver producto
             </a>
           </Link>
