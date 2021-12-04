@@ -13,9 +13,12 @@ export default function Nav() {
             <div className="flex items-center justify-between w-full md:w-auto">
               <a href="#">
                 <span className="sr-only">ChollosTech</span>
-                <img
+                <Image
                   className="h-8 w-auto sm:h-10"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                  alt="ChollosTech logo"
+                  width="50"
+                  height="50"
                 />
               </a>
               <div className="-mr-2 flex items-center md:hidden">
@@ -87,10 +90,12 @@ export default function Nav() {
         <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
           <div className="px-5 pt-4 flex items-center justify-between">
             <div>
-              <img
-                className="h-8 w-auto"
+              <Image
+                className="h-8 w-auto sm:h-10"
                 src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                alt=""
+                alt="ChollosTech logo"
+                width="50"
+                height="50"
               />
             </div>
             <div className="-mr-2">
