@@ -10,6 +10,25 @@ export default function Nav() {
     console.log("Hago click");
     setActive(!active);
   };
+
+  const menu = [
+    {
+      item: "Destacado",
+      url: "/",
+    },
+    {
+      item: "LifeStyle",
+      url: "/lifestyle",
+    },
+    {
+      item: "Videojuegos",
+      url: "/videojuegos",
+    },
+    {
+      item: "Domótica",
+      url: "/domotica",
+    },
+  ];
   return (
     <div>
       <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
@@ -59,38 +78,13 @@ export default function Nav() {
             </div>
           </div>
           <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-            <a
-              href="#"
-              className="font-medium text-gray-500 hover:text-gray-900"
-            >
-              Destacados
-            </a>
-
-            <Link href="/lifestyle">
-              <a
-                href="#"
-                className="font-medium text-gray-500 hover:text-gray-900"
-              >
-                LifeStyle
-              </a>
-            </Link>
-
-            <Link href="/videojuegos">
-              <a
-                href="#"
-                className="font-medium text-gray-500 hover:text-gray-900"
-              >
-                Videojuegos
-              </a>
-            </Link>
-            <Link href="/domotica">
-              <a
-                href="#"
-                className="font-medium text-gray-500 hover:text-gray-900"
-              >
-                Domótica
-              </a>
-            </Link>
+            {menu.map((menu) => (
+              <Link href={menu.url} key={menu.item}>
+                <a className="font-medium text-gray-500 hover:text-gray-900">
+                  {menu.item}
+                </a>
+              </Link>
+            ))}
           </div>
         </nav>
       </div>
@@ -141,41 +135,13 @@ export default function Nav() {
           <div
             className={`${active ? "" : "hidden"}   px-2 pt-2 pb-3 space-y-1`}
           >
-            <Link href="/">
-              <a
-                href="#"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-              >
-                Destacados
-              </a>
-            </Link>
-
-            <Link href="/lifestyle">
-              <a
-                href="#"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-              >
-                LifeStyle
-              </a>
-            </Link>
-
-            <Link href="/videojuegos">
-              <a
-                href="#"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-              >
-                Videojuegos
-              </a>
-            </Link>
-
-            <Link href="/domotica">
-              <a
-                href="#"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-              >
-                Domótica
-              </a>
-            </Link>
+            {menu.map((menu) => (
+              <Link href={menu.url} key={menu.item}>
+                <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+                  {menu.item}
+                </a>
+              </Link>
+            ))}
           </div>
         </div>
       </div>
