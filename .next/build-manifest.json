@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/videojuegos": [
+    "/products/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/videojuegos.js"
+      "static/chunks/pages/products/[slug].js"
     ]
   },
   "ampFirstPages": []

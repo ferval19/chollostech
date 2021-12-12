@@ -6,7 +6,7 @@ coverImage: "https://m.media-amazon.com/images/I/61hSbBSVCDS._AC_SL1500_.jpg"
 date: "2020-12-04T05:35:07.322Z"
 enlace: https://amzn.to/31rPoUf
 author:
-  name: Fernando Fernandez Valero
+  name: Equipo Chollos.tech
 ogImage:
   url: "https://m.media-amazon.com/images/I/61hSbBSVCDS._AC_SL1500_.jpg"
 ---

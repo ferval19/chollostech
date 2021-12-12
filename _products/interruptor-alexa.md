@@ -6,8 +6,7 @@ coverImage: "https://m.media-amazon.com/images/I/71-8YOtQPpL._SL1500_.jpg"
 date: "2020-11-16T05:35:07.322Z"
 enlace: https://amzn.to/3ooPy7P
 author:
-  name: Joe Haddad
-  picture: "/assets/blog/authors/joe.jpeg"
+  name: Equipo Chollos.tech
 ogImage:
   url: "https://m.media-amazon.com/images/I/71-8YOtQPpL._SL1500_.jpg"
 ---
