@@ -27,7 +27,7 @@ export default function Domotica({ allPosts }) {
 
             <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="flex lg:items-center flex-wrap lg:flex-nowrap">
-                <div className="sm:text-center lg:text-left">
+                <div className="sm:text-center lg:text-left w-full md:w-2/3">
                   <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                     <span className="block xl:inline">Lo mejor de la </span>
                     <span className="block text-indigo-600 xl:inline">
@@ -41,6 +41,7 @@ export default function Domotica({ allPosts }) {
                   </p>
                 </div>
                 <Image
+                  className="w-full md:w-1/3"
                   src="/domotica.png"
                   alt="ChollosTech, tu sitio para encontrar los mejores productos de Amazon"
                   width="450"
