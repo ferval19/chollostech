@@ -4,6 +4,7 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Destacados from "./destacados";
+import Listados from "./listados";
 
 export default function Layout({ destacados }) {
   return (
@@ -22,6 +23,7 @@ export default function Layout({ destacados }) {
             <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <Hero />
               <Destacados destacados={destacados} />
+              <Listados destacados={destacados} />
             </main>
             <Footer />
           </div>

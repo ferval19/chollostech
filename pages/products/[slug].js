@@ -24,7 +24,7 @@ export default function Post({ producto, morePosts, preview }) {
                 content={producto.content}
                 imagen={producto.coverImage}
                 title={producto.title}
-                amazon={producto.enlace}
+                enlace={producto.enlace}
               />
             </article>
           </main>
@@ -43,6 +43,7 @@ export async function getStaticProps({ params }) {
     "content",
     "ogImage",
     "coverImage",
+    "enlace",
   ]);
   const content = await markdownToHtml(producto.content || "");
 

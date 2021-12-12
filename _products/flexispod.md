@@ -4,7 +4,7 @@ category: setup
 excerpt: "FLEXISPOT EF1 Escritorio de Pie con Tablero (Blanco+Maple,100X60cm) Standing Desk Mesa Elevable Ordenador Gaming Oficina Frame Eléctrico Ajustable en Altura con Tecla de 4 Opciones Memoria y Motor"
 coverImage: "https://m.media-amazon.com/images/I/61hSbBSVCDS._AC_SL1500_.jpg"
 date: "2020-12-04T05:35:07.322Z"
-enlace: https://amzn.to/31rPoUf
+enlace: https://amzn.to/3IKutgf
 author:
   name: Equipo Chollos.tech
 ogImage:
