@@ -13,18 +13,24 @@ export default function Post({ producto, morePosts, preview }) {
     return <ErrorPage statusCode={404} />;
   }
   return (
-    <>
-      <Nav />
-      <article className="mb-32 p-4">
-        <ProductTitle title={producto.title} />
-        <ProductBody
-          content={producto.content}
-          imagen={producto.coverImage}
-          title={producto.title}
-          amazon={producto.enlace}
-        />
-      </article>
-    </>
+    <div className="relative bg-white overflow-hidden">
+      <div className="max-w-7xl mx-auto">
+        <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:w-full">
+          <Nav />
+          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+            <article className="mb-32 p-4">
+              <ProductTitle title={producto.title} />
+              <ProductBody
+                content={producto.content}
+                imagen={producto.coverImage}
+                title={producto.title}
+                amazon={producto.enlace}
+              />
+            </article>
+          </main>
+        </div>
+      </div>
+    </div>
   );
 }
 
