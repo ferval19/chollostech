@@ -1,6 +1,9 @@
 import Destacado from "./destacado";
 
 export default function Destacados({ hero, destacados }) {
+  if (destacados.length == 0) {
+    hero = "!!Todavía no hemos podido añadir chollos aqui!!";
+  }
   return (
     <>
       <div className="bg-gray-200 pt-2 rounded-lg">

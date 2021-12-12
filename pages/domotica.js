@@ -4,6 +4,7 @@ import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Destacados from "../components/destacados";
+import Listados from "../components/listados";
 import { getAllPosts } from "../lib/api";
 
 export default function Domotica({ allPosts }) {
@@ -47,6 +48,7 @@ export default function Domotica({ allPosts }) {
                 />
               </div>
               <Destacados destacados={filtrados} hero={hero} />
+              <Listados destacados={filtrados} />
             </main>
             <Footer />
           </div>

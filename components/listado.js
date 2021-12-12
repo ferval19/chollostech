@@ -6,7 +6,7 @@ export default function Listado({ destacado }) {
     <>
       <Link as={`/products/${destacado.slug}`} href="/products/[slug]">
         <div className="flex items-center justify-between rounded overflow-hidden mb-4 border-2 rounded-lg bg-white hover:shadow-xl hover:border-gray-300">
-          <div className="p-4">
+          <div className="p-4 w-1/6">
             <Image
               src={destacado.coverImage}
               alt={destacado.title}
@@ -16,7 +16,7 @@ export default function Listado({ destacado }) {
             />
           </div>
 
-          <div className="px-6 py-4">
+          <div className="px-6 py-4 w-5/6">
             <div className="font-bold text-xl mb-2">{destacado.title}</div>
 
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
