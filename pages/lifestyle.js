@@ -10,6 +10,7 @@ export default function LifeStyle({ allPosts }) {
   const filtrados = allPosts.filter(function (element) {
     return element.category == "setup";
   });
+  const hero = "Empieza a elegir";
   return (
     <div>
       <Head>
@@ -44,8 +45,7 @@ export default function LifeStyle({ allPosts }) {
                   height="450"
                 />
               </div>
-              <h2 className="text-xl mb-4">Empieza a elegir</h2>
-              <Destacados destacados={filtrados} />
+              <Destacados destacados={filtrados} hero={hero} />
             </main>
             <Footer />
           </div>

@@ -10,8 +10,7 @@ export default function Videojuegos({ allPosts }) {
   const filtrados = allPosts.filter(function (element) {
     return element.category == "videojuegos";
   });
-  console.log("Pagina de domotica");
-  console.log(filtrados);
+  const hero = "Nuestra selección";
   return (
     <div>
       <Head>
@@ -48,8 +47,7 @@ export default function Videojuegos({ allPosts }) {
                   height="450"
                 />
               </div>
-              <h2 className="text-xl mb-4">Nuestra selección</h2>
-              <Destacados destacados={filtrados} />
+              <Destacados destacados={filtrados} hero={hero} />
             </main>
             <Footer />
           </div>

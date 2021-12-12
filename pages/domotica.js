@@ -10,8 +10,7 @@ export default function Domotica({ allPosts }) {
   const filtrados = allPosts.filter(function (element) {
     return element.category == "domotica";
   });
-  console.log("Pagina de domotica");
-  console.log(filtrados);
+  const hero = "Lo más buscado";
   return (
     <div>
       <Head>
@@ -47,8 +46,7 @@ export default function Domotica({ allPosts }) {
                   height="450"
                 />
               </div>
-              <h2 className="text-xl mb-4">Lo más buscado</h2>
-              <Destacados destacados={filtrados} />
+              <Destacados destacados={filtrados} hero={hero} />
             </main>
             <Footer />
           </div>

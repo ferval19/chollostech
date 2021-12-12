@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import BotonAmazon from "./botonAmazon";
 
 export default function Listado({ destacado }) {
   return (
