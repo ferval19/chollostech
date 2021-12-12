@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/domotica": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/domotica.js"
-    ],
     "/lifestyle": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

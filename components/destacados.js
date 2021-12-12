@@ -2,7 +2,7 @@ import Destacado from "./destacado";
 
 export default function Destacados({ hero, destacados }) {
   if (destacados.length == 0) {
-    hero = "!!Todavía no hemos podido añadir chollos aqui!!";
+    hero = "!!Todavía no hemos podido añadir chollos aquí!!";
   }
   return (
     <>

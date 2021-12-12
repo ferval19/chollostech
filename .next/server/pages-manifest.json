@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/lifestyle": "pages/lifestyle.js",
-  "/videojuegos": "pages/videojuegos.js",
-  "/domotica": "pages/domotica.js"
+  "/": "pages/index.js"
 }

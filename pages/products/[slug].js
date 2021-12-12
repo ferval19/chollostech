@@ -21,6 +21,7 @@ export default function Post({ producto, morePosts, preview }) {
             <article className="mb-32 p-4">
               <ProductTitle
                 title={producto.title}
+                category={producto.category}
                 imagen={producto.coverImage}
                 enlace={producto.enlace}
               />
@@ -43,6 +44,7 @@ export async function getStaticProps({ params }) {
     "ogImage",
     "coverImage",
     "enlace",
+    "category",
   ]);
   const content = await markdownToHtml(producto.content || "");
 

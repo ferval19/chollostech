@@ -2,13 +2,13 @@
 title: "Navaris Caja organizadora de Cables de Bambú"
 category: setup
 excerpt: "Navaris Caja organizadora de Cables - Bandeja portacables de bambú - Organizador para Cable de Ordenador TV Cargador USB - Oculta y Guarda los Cables"
-coverImage: "https://m.media-amazon.com/images/I/71HufK3fYmL._AC_SL1500_.jpg"
+coverImage: "https://m.media-amazon.com/images/I/81wSc3dOR2L._AC_SL1500_.jpg"
 date: "2020-12-11T05:42:07.322Z"
 enlace: https://amzn.to/3pOq5Ej
 author:
   name: Equipo Chollos.tech
 ogImage:
-  url: "https://m.media-amazon.com/images/I/71HufK3fYmL._AC_SL1500_.jpg"
+  url: "https://m.media-amazon.com/images/I/81wSc3dOR2L._AC_SL1500_.jpg"
 ---
 
 <h2>Acerca de este producto:</h2>
