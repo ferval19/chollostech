@@ -5,7 +5,7 @@ import BotonAmazon from "./botonAmazon";
 export default function Destacado({ destacado }) {
   return (
     <>
-      <div className="max-w-sm rounded overflow-hidden shadow-lg mb-4">
+      <div className="max-w-sm rounded overflow-hidden mb-4 border-2 rounded-lg bg-white hover:shadow-xl hover:border-gray-300">
         <div className="flex justify-center pt-4">
           <Image
             src={destacado.coverImage}
