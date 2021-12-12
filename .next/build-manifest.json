@@ -34,6 +34,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/domotica.js"
+    ],
+    "/lifestyle": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/lifestyle.js"
+    ],
+    "/products/[slug]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/products/[slug].js"
     ]
   },
   "ampFirstPages": []
