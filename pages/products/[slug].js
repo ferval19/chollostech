@@ -19,13 +19,12 @@ export default function Post({ producto, morePosts, preview }) {
           <Nav />
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <article className="mb-32 p-4">
-              <ProductTitle title={producto.title} />
-              <ProductBody
-                content={producto.content}
-                imagen={producto.coverImage}
+              <ProductTitle
                 title={producto.title}
+                imagen={producto.coverImage}
                 enlace={producto.enlace}
               />
+              <ProductBody content={producto.content} />
             </article>
           </main>
         </div>
